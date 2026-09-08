@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Rajlaxmi Granite & Marble - Premium granite, marble, tiles and natural stone for homes, kitchens and commercial spaces." />
-  <title>Rajlaxmi Granite & Marble</title>
+  <meta name="description" content="Rajlaxmi Granite & Marble - Premium granite, marble, tiles and natural stone in Navi Mumbai." />
+  <meta name="theme-color" content="#171714" />
+  <title>Rajlaxmi Granite & Marble | Navi Mumbai</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
@@ -15,22 +16,20 @@
     <div class="container nav-wrap">
       <a href="#top" class="brand" aria-label="Rajlaxmi Granite & Marble home">
         <span class="brand-mark">RG</span>
-        <span class="brand-text">
-          <strong>Rajlaxmi</strong>
-          <small>Granite & Marble</small>
-        </span>
+        <span class="brand-text"><strong>Rajlaxmi</strong><small>Granite & Marble</small></span>
       </a>
 
       <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
 
-      <nav class="nav" id="navMenu">
+      <nav class="nav" id="navMenu" aria-label="Main navigation">
         <a href="#home">Home</a>
         <a href="#products">Products</a>
         <a href="#about">About</a>
         <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Enquire</a>
+        <a href="#location">Location</a>
       </nav>
 
       <a class="btn btn-dark nav-cta" href="#contact">Get a Quote</a>
@@ -48,6 +47,9 @@
           <div class="hero-actions">
             <a href="#products" class="btn btn-gold">Explore Collection</a>
             <a href="#contact" class="btn btn-ghost">Request Price</a>
+            <a class="btn btn-whatsapp" href="https://wa.me/919784370260?text=Hello%20Rajlaxmi%20Granite%20%26%20Marble%2C%20I%20would%20like%20to%20enquire%20about%20your%20products." target="_blank" rel="noopener">
+              <span class="wa-small" aria-hidden="true">✆</span> WhatsApp Us
+            </a>
           </div>
           <div class="hero-stats">
             <div><strong>500+</strong><span>Stone Designs</span></div>
@@ -60,7 +62,7 @@
           <span>Featured Stone</span>
           <h3>Italian White Marble</h3>
           <p>Elegant veining, polished finish, premium interior appeal.</p>
-          <a href="#contact">Ask for latest price →</a>
+          <a href="#contact" class="product-enquire" data-product="Italian White Marble">Ask for latest price →</a>
         </div>
       </div>
     </section>
@@ -70,17 +72,14 @@
         <div><span>01</span><strong>Premium Selection</strong><small>Hand-picked stone & finishes</small></div>
         <div><span>02</span><strong>Fair Pricing</strong><small>Transparent, competitive rates</small></div>
         <div><span>03</span><strong>Expert Guidance</strong><small>Help choosing the right material</small></div>
-        <div><span>04</span><strong>Reliable Delivery</strong><small>Safe handling & coordination</small></div>
+        <div><span>04</span><strong>Reliable Support</strong><small>Easy enquiry & coordination</small></div>
       </div>
     </section>
 
     <section class="section" id="products">
       <div class="container">
         <div class="section-head reveal">
-          <div>
-            <span class="eyebrow dark">Our Collection</span>
-            <h2>Choose the perfect stone for your space.</h2>
-          </div>
+          <div><span class="eyebrow dark">Our Collection</span><h2>Choose the perfect stone for your space.</h2></div>
           <p>Browse our popular range. Contact us for size, finish, stock and current pricing.</p>
         </div>
 
@@ -94,27 +93,27 @@
         <div class="product-grid" id="productGrid">
           <article class="product-card reveal" data-category="granite">
             <div class="product-image img-black-galaxy"><span>Popular</span></div>
-            <div class="product-body"><small>Granite</small><h3>Black Galaxy</h3><p>Rich black base with golden speckles. Ideal for kitchen platforms and premium flooring.</p><a href="#contact">Enquire →</a></div>
+            <div class="product-body"><small>Granite</small><h3>Black Galaxy</h3><p>Rich black base with golden speckles. Ideal for kitchen platforms and premium flooring.</p><a href="#contact" class="product-enquire" data-product="Black Galaxy Granite">Enquire →</a></div>
           </article>
           <article class="product-card reveal" data-category="granite">
             <div class="product-image img-tan-brown"></div>
-            <div class="product-body"><small>Granite</small><h3>Tan Brown</h3><p>Warm brown granite with deep mineral patterns for kitchens, counters and stairs.</p><a href="#contact">Enquire →</a></div>
+            <div class="product-body"><small>Granite</small><h3>Tan Brown</h3><p>Warm brown granite with deep mineral patterns for kitchens, counters and stairs.</p><a href="#contact" class="product-enquire" data-product="Tan Brown Granite">Enquire →</a></div>
           </article>
           <article class="product-card reveal" data-category="marble">
             <div class="product-image img-white-marble"><span>Premium</span></div>
-            <div class="product-body"><small>Marble</small><h3>Italian White</h3><p>Bright luxury marble with soft natural veins, perfect for elegant interiors.</p><a href="#contact">Enquire →</a></div>
+            <div class="product-body"><small>Marble</small><h3>Italian White</h3><p>Bright luxury marble with soft natural veins, perfect for elegant interiors.</p><a href="#contact" class="product-enquire" data-product="Italian White Marble">Enquire →</a></div>
           </article>
           <article class="product-card reveal" data-category="marble">
             <div class="product-image img-green-marble"></div>
-            <div class="product-body"><small>Marble</small><h3>Indian Green</h3><p>Distinctive green marble for floors, temples, countertops and statement spaces.</p><a href="#contact">Enquire →</a></div>
+            <div class="product-body"><small>Marble</small><h3>Indian Green</h3><p>Distinctive green marble for floors, temples, countertops and statement spaces.</p><a href="#contact" class="product-enquire" data-product="Indian Green Marble">Enquire →</a></div>
           </article>
           <article class="product-card reveal" data-category="tiles">
             <div class="product-image img-beige-tile"><span>New</span></div>
-            <div class="product-body"><small>Tiles</small><h3>Royal Beige Vitrified</h3><p>Premium beige vitrified tile for living rooms, bedrooms and commercial interiors.</p><a href="#contact">Enquire →</a></div>
+            <div class="product-body"><small>Tiles</small><h3>Royal Beige Vitrified</h3><p>Premium beige vitrified tile for living rooms, bedrooms and commercial interiors.</p><a href="#contact" class="product-enquire" data-product="Royal Beige Vitrified Tiles">Enquire →</a></div>
           </article>
           <article class="product-card reveal" data-category="tiles">
             <div class="product-image img-grey-tile"></div>
-            <div class="product-body"><small>Tiles</small><h3>Urban Grey</h3><p>Modern neutral tile with a clean surface for contemporary homes and offices.</p><a href="#contact">Enquire →</a></div>
+            <div class="product-body"><small>Tiles</small><h3>Urban Grey</h3><p>Modern neutral tile with a clean surface for contemporary homes and offices.</p><a href="#contact" class="product-enquire" data-product="Urban Grey Tiles">Enquire →</a></div>
           </article>
         </div>
       </div>
@@ -123,8 +122,7 @@
     <section class="about section" id="about">
       <div class="container about-grid">
         <div class="about-images reveal">
-          <div class="about-main"></div>
-          <div class="about-small"></div>
+          <div class="about-main"></div><div class="about-small"></div>
           <div class="experience-badge"><strong>Quality</strong><span>you can see & feel</span></div>
         </div>
         <div class="about-copy reveal delay-1">
@@ -132,12 +130,7 @@
           <h2>Materials selected to make your dream home last.</h2>
           <p>Rajlaxmi Granite & Marble brings together beautiful natural stones and modern tiles for residential and commercial projects. We focus on quality, finish, practical guidance and value for money.</p>
           <p>Whether you are designing a kitchen, full-home flooring, staircase, bathroom or office, we help you compare the right options before you buy.</p>
-          <div class="feature-list">
-            <div>✓ Multiple finishes & sizes</div>
-            <div>✓ Kitchen & flooring specialists</div>
-            <div>✓ Bulk/project enquiries welcome</div>
-            <div>✓ Easy quotation support</div>
-          </div>
+          <div class="feature-list"><div>✓ Multiple finishes & sizes</div><div>✓ Kitchen & flooring specialists</div><div>✓ Bulk/project enquiries welcome</div><div>✓ Easy quotation support</div></div>
           <a href="#contact" class="btn btn-dark">Talk to Us</a>
         </div>
       </div>
@@ -145,10 +138,7 @@
 
     <section class="projects section" id="gallery">
       <div class="container">
-        <div class="section-head centered reveal">
-          <span class="eyebrow dark">Inspiration Gallery</span>
-          <h2>See how the right stone transforms a space.</h2>
-        </div>
+        <div class="section-head centered reveal"><span class="eyebrow dark">Inspiration Gallery</span><h2>See how the right stone transforms a space.</h2></div>
         <div class="gallery-grid">
           <figure class="gallery-item tall g1 reveal"><figcaption>Luxury Kitchen</figcaption></figure>
           <figure class="gallery-item g2 reveal"><figcaption>Marble Flooring</figcaption></figure>
@@ -168,32 +158,91 @@
     <section class="contact section" id="contact">
       <div class="container contact-grid">
         <div class="contact-copy reveal">
-          <span class="eyebrow dark">Contact Us</span>
+          <span class="eyebrow dark">Enquire Now</span>
           <h2>Get price, availability and product guidance.</h2>
-          <p>Send your requirement and we’ll help you with suitable granite, marble or tile options.</p>
+          <p>Fill the form and your enquiry will be sent to our team. You can also connect instantly on WhatsApp or call us.</p>
           <div class="contact-details">
-            <div><span>Phone</span><strong>+91 9784370260</strong></div>
-            <div><span>Email</span><strong>sales@rajlaxmigranite.com</strong></div>
+            <div><span>Phone</span><strong><a href="tel:+919784370260">+91 97843 70260</a></strong></div>
+            <div><span>Email</span><strong><a href="mailto:raotejpal97@gmail.com">raotejpal97@gmail.com</a></strong></div>
             <div><span>Showroom</span><strong>Plot Number 1129, Khutari Mumbra Panvel Road, near Jio-bp, Navi Mumbai, Maharashtra, India</strong></div>
-            <div><span>Hours</span><strong>Mon–Sat: 9:30 AM – 7:30 PM</strong></div>
+            <div><span>Visit</span><strong><a href="#location">View map & directions ↓</a></strong></div>
           </div>
-          <!-- <p class="edit-note">Update the phone, email and showroom address in <code>index.html</code> before publishing.</p> -->
+          <div class="contact-actions">
+            <a class="btn btn-whatsapp dark-text" href="https://wa.me/919784370260?text=Hello%20Rajlaxmi%20Granite%20%26%20Marble%2C%20I%20would%20like%20to%20enquire%20about%20your%20products." target="_blank" rel="noopener">WhatsApp +91 97843 70260</a>
+            <a class="btn btn-outline" href="tel:+919784370260">Call Now</a>
+          </div>
         </div>
 
-        <form class="contact-form reveal delay-1" id="enquiryForm">
+        <!--
+          GOOGLE FORM SETUP
+          3) Keep the form published and available to anyone with the responder link.
+          4) Do NOT enable "Limit to 1 response" or require sign-in for this public website form.
+        -->
+        <form
+          class="contact-form reveal delay-1"
+          id="enquiryForm"
+          action="https://docs.google.com/forms/d/e/1FAIpQLSerVHTjxgMQNbZVZWAZQN6D_dVXPMLfiSh0_wescAK3n7mtVg/formResponse"
+          method="POST"
+          target="googleFormHiddenFrame"
+        >
           <div class="form-row">
-            <label>Name<input id="name" type="text" placeholder="Your name" required></label>
-            <label>Phone<input id="phone" type="tel" placeholder="10-digit mobile number" required></label>
+            <label>Name
+              <input id="name" name="entry.1675016083" type="text" placeholder="Your name" autocomplete="name" required>
+            </label>
+            <label>Phone
+              <input id="phone" name="entry.2040272201" type="tel" inputmode="numeric" maxlength="10" pattern="[6-9][0-9]{9}" placeholder="10-digit mobile number" autocomplete="tel" required>
+            </label>
           </div>
+
           <label>Product Interest
-            <select id="interest">
-              <option>Granite</option><option>Marble</option><option>Tiles</option><option>Kitchen Countertop</option><option>Full Home Flooring</option><option>Other</option>
+            <select id="interest" name="entry.1069626652" required>
+              <option value="Granite">Granite</option>
+              <option value="Marble">Marble</option>
+              <option value="Tiles">Tiles</option>
+              <option value="Kitchen Countertop">Kitchen Countertop</option>
+              <option value="Full Home Flooring">Full Home Flooring</option>
+              <option value="Other">Other</option>
             </select>
           </label>
-          <label>Your Requirement<textarea id="message" rows="5" placeholder="Example: Need granite for kitchen, approx. 45 sq.ft."></textarea></label>
-          <button class="btn btn-dark full" type="submit">Send Enquiry on WhatsApp</button>
-          <!-- <small>Demo WhatsApp number is used. Replace it in <code>script.js</code>.</small> -->
+
+          <label>Your Requirement
+            <textarea id="message" name="entry.477109684" rows="5" placeholder="Example: Need granite for kitchen, approx. 45 sq.ft." required></textarea>
+          </label>
+
+          <div id="formError" class="form-error" role="alert" aria-live="polite"></div>
+          <button class="btn btn-dark full" id="submitBtn" type="submit">Send Enquiry</button>
+          <small class="form-help">Your enquiry will be saved in our enquiry register. Our team will connect with you soon.</small>
         </form>
+
+        <!-- Google Form submits here so the customer stays on your website. -->
+        <iframe
+          name="googleFormHiddenFrame"
+          id="googleFormHiddenFrame"
+          title="Google Form submission"
+          style="display:none"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="location section" id="location">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="eyebrow dark">Visit Our Showroom</span><h2>Rajlaxmi Granite & Marble, Navi Mumbai</h2></div>
+          <p>Plot Number 1129, Khutari Mumbra Panvel Road, near Jio-bp, Navi Mumbai, Maharashtra, India</p>
+        </div>
+        <div class="map-card reveal">
+          <iframe
+            title="Rajlaxmi Granite & Marble location"
+            src="https://www.google.com/maps?q=19.0859305,73.0813232&z=16&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+          <div class="map-info">
+            <div><strong>Rajlaxmi Granite & Marble</strong><span>Near Jio-bp, Khutari Mumbra Panvel Road</span></div>
+            <a class="btn btn-dark" href="https://www.google.com/maps/dir/19.070833,73.098277/Rajlaxmi+Granite+And+Ceramics,+Plot+Number+1129,+Khutari+Mumbra+Panvel+Road,+near+Jio-bp,+Taloja,+Panvel,+Maharashtra+410208/@19.0784224,73.0791262,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7c3df78a94963:0x60c0579493acd28e!2m2!1d73.0813232!2d19.0859305?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Open in Google Maps</a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -201,14 +250,31 @@
   <footer>
     <div class="container footer-grid">
       <div><a href="#top" class="brand footer-brand"><span class="brand-mark">RG</span><span class="brand-text"><strong>Rajlaxmi</strong><small>Granite & Marble</small></span></a><p>Premium surfaces for beautiful, durable spaces.</p></div>
-      <div><h4>Quick Links</h4><a href="#products">Products</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+      <div><h4>Quick Links</h4><a href="#products">Products</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Enquire</a><a href="#location">Location</a></div>
       <div><h4>Products</h4><span>Granite</span><span>Marble</span><span>Vitrified Tiles</span><span>Kitchen Stone</span></div>
-      <div><h4>Contact</h4><span>+91 9784370260</span><span>sales@rajlaxmigranite.com</span></div>
+      <div><h4>Contact</h4><a href="tel:+919784370260">+91 97843 70260</a><a href="mailto:raotejpal97@gmail.com">raotejpal97@gmail.com</a><a href="#location">Navi Mumbai, Maharashtra</a></div>
     </div>
     <div class="container footer-bottom"><span>© <span id="year"></span> Rajlaxmi Granite & Marble. All rights reserved.</span><a href="#top">Back to top ↑</a></div>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/919784370260" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WA</a>
+  <a class="whatsapp-float" href="https://wa.me/919784370260?text=Hello%20Rajlaxmi%20Granite%20%26%20Marble%2C%20I%20would%20like%20to%20enquire." target="_blank" rel="noopener" aria-label="Chat with Rajlaxmi Granite & Marble on WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M19.11 17.44c-.47-.24-2.78-1.37-3.21-1.53-.43-.16-.74-.24-1.05.24-.31.47-1.21 1.53-1.48 1.85-.27.31-.55.35-1.02.12-.47-.24-1.99-.73-3.79-2.34-1.4-1.25-2.35-2.79-2.62-3.26-.27-.47-.03-.73.21-.96.21-.21.47-.55.7-.82.24-.27.31-.47.47-.78.16-.31.08-.59-.04-.82-.12-.24-1.05-2.54-1.44-3.48-.38-.91-.76-.79-1.05-.8h-.9c-.31 0-.82.12-1.25.59-.43.47-1.64 1.6-1.64 3.9 0 2.3 1.68 4.52 1.91 4.83.24.31 3.3 5.04 7.99 7.07 1.12.48 1.99.77 2.67.98 1.12.36 2.14.31 2.95.19.9-.13 2.78-1.13 3.17-2.23.39-1.09.39-2.03.27-2.23-.12-.2-.43-.31-.9-.55M16.03 29h-.01a13.08 13.08 0 0 1-6.67-1.83l-.48-.29-4.96 1.3 1.32-4.83-.31-.5A13.04 13.04 0 1 1 16.03 29m11.1-24.1A15.63 15.63 0 0 0 16.02.3C7.39.3.37 7.32.37 15.95c0 2.76.72 5.45 2.08 7.82L.24 31.85l8.27-2.17a15.65 15.65 0 0 0 7.5 1.91h.01c8.63 0 15.65-7.02 15.65-15.65 0-4.18-1.63-8.11-4.54-11.04"/></svg>
+  </a>
+
+  <div class="success-modal" id="successModal" role="dialog" aria-modal="true" aria-labelledby="successTitle" hidden>
+    <div class="success-backdrop" data-close-modal></div>
+    <div class="success-box">
+      <button class="modal-close" type="button" aria-label="Close" data-close-modal>×</button>
+      <div class="success-check">✓</div>
+      <h3 id="successTitle">Thank you for your enquiry!</h3>
+      <p>Your requirement has been received. Our team will connect with you soon.</p>
+      <div class="modal-actions">
+        <button class="btn btn-dark" type="button" data-close-modal>Done</button>
+        <a class="btn btn-whatsapp dark-text" id="successWhatsApp" href="https://wa.me/919784370260" target="_blank" rel="noopener">Continue on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>

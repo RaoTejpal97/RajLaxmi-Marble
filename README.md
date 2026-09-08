@@ -1,29 +1,35 @@
-# Rajlaxmi Granite & Marble Frontend
+# Rajlaxmi Granite & Marble — Final Production Website
 
-A complete responsive single-page frontend built with plain HTML, CSS and JavaScript.
+This package is configured for the supplied Google Form and is suitable for a static GitHub Pages site.
 
-## Run directly
+## Customer enquiry flow
+1. Customer fills Name, Phone, Product Interest and Requirement on the website.
+2. The website posts those values directly to the configured Google Form in a hidden iframe.
+3. The customer stays on the Rajlaxmi website.
+4. After Google finishes the submission, the website shows:
+   **Thank you for your enquiry! Your requirement has been received. Our team will connect with you soon.**
+5. The response is available under Google Form -> Responses and in its linked Google Sheet.
+6. If the Form owner enables Google Forms response notifications, Google sends the owner the new-response email. There is no custom email-sending service in this website.
 
-### Option 1: Easiest
-Double-click `index.html` and it will open in your browser.
+## Google Form configured
+Form ID:
+`1FAIpQLSerVHTjxgMQNbZVZWAZQN6D_dVXPMLfiSh0_wescAK3n7mtVg`
 
-### Option 2: VS Code Live Server
-Open the folder in VS Code and run `index.html` with the Live Server extension.
+Field mapping:
+- Customer Name -> `entry.1675016083`
+- Phone Number -> `entry.2040272201`
+- Product Interest -> `entry.1069626652`
+- Requirement -> `entry.477109684`
 
-### Option 3: Local server
-If Python is installed:
+## Google Form owner setup (one time)
+- Google Form -> Responses -> Link to Sheets
+- Google Form -> Responses -> three dots -> Get email notifications for new responses
+- Keep the Form available to public responders; do not require sign-in / Limit to 1 response for website visitors.
 
-```bash
-python -m http.server 8080
-```
+## Business details
+- WhatsApp / Phone: +91 97843 70260
+- Contact email displayed on site: raotejpal97@gmail.com
+- Showroom: Plot Number 1129, Khutari Mumbra Panvel Road, near Jio-bp, Navi Mumbai, Maharashtra, India
 
-Then open `http://localhost:8080`.
-
-## Important changes before publishing
-
-1. Update phone number, email and showroom address in `index.html`.
-2. Update `whatsappNumber` in `script.js`.
-3. Replace demo image URLs with your own product/showroom photos if available.
-4. Product cards can be edited directly inside the `#productGrid` section of `index.html`.
-
-No npm install or build command is required.
+## Deployment
+Copy `index.html`, `styles.css`, `script.js`, and `README.md` to the root of your GitHub Pages repository.
